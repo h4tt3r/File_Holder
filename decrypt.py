@@ -2,7 +2,7 @@ hiddenMes = raw_input("Enter a message to decrypt:\n>")
 
 
 
-def by4(s):
+def by5(s):
     out = []
     while len(s):
         out.insert(0, s[-5:])

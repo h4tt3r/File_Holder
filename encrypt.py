@@ -41,19 +41,17 @@ for x in clearMesList:
 	#Adds now converted character to numList 
 	numList.append(y)
 
-
 numList2 = [] 
 
 #Does math to all the coverted characters
 for x in numList:
-	x = x * 9
-	x = x + 504
-	x = x - 62
-	x = x + x*34+21
-	x = x / 12 
+	x = x + 1000
+	x = x * 17
+	x = x + 23
+	x = x - 743
 	numList2.append(x)
 	
-
+print numList2
 y = 0 
 #Converts all ints in numList2 into strings
 for x in numList2:
@@ -65,6 +63,7 @@ for x in numList2:
 encryptedstring = "".join(numList2)
 
 print "\nEncrypted message:\n" + encryptedstring
+
 
 
 
